@@ -14,7 +14,7 @@ user_num = ""
 while not user_num.isdigit() or int(user_num) < 1 or int(user_num) > 6:
     user_num = input("Scegli un numero da 1 a 5: ")
 
-computer_num = random.randrange(1, 6)
+computer_num = random.randint(1, 5)
 
 sum = int(user_num) + int(computer_num)
 
